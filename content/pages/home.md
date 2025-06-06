@@ -14,6 +14,20 @@ Below are books we published. Click on any title to see more details, and purcha
 
 <div class="book-grid">
     <div class="book-image">
+        <a href="https://moonstoneminarets.com/the-last-standing-dragon.html">
+            <img src="https://moonstoneminarets.com/images/covers/the-last-standing-dragon.jpg" alt="The Last Standing Dragon cover" />
+        </a>
+    </div>
+    <div class="book-info">
+        <h2 class="book-title"><a href="https://moonstoneminarets.com/the-last-standing-dragon.html">The Last Standing Dragon</a></h2>
+        <p class="book-summary"><p>In a world of whispering winds and forgotten magic, young dragon Bilal sets out to find his missing mother—only to uncover a growing darkness that threatens all dragonkind. With loyal friends and his siblings by his side, Bilal must brave cursed forests, ancient ruins, and the secrets of a past no one dares to speak aloud.</p></p>
+        <p><a class="read-more" href="https://moonstoneminarets.com/the-last-standing-dragon.html">Read more →</a></p>
+    </div>
+</div>
+        
+
+<div class="book-grid">
+    <div class="book-image">
         <a href="https://moonstoneminarets.com/the-green-beast.html">
             <img src="https://moonstoneminarets.com/images/covers/the-green-beast.jpg" alt="The Green Beast cover" />
         </a>

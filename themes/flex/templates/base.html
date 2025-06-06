@@ -101,7 +101,6 @@
 
   {% include "partial/ggst.html" %}
 
-
   {% include "partial/plausible.html" %}
 
   {% if PGP_KEY %}
@@ -138,7 +137,17 @@
     {% include "partial/og.html" %}
   {% endblock %}
 
-  <title>{% block title %}{% endblock %} - {{ SITENAME }}</title>
+  <title>
+      {% if article %}
+          {{ article.title }}
+      {% elif page %}
+          {{ page.title }}
+      {% endif %}
+      - {{ SITENAME }}
+      {% if not article and not page and not author and not category and not tag and not page_name %}
+          - {{ SITEDESCRIPTION }}
+      {% endif %}
+  </title>
 
   {% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.page_level_ads %}
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

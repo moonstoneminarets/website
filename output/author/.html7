@@ -34,7 +34,6 @@
 
 
 
-
  
 
     <meta name="author" content="" />
@@ -48,7 +47,9 @@
     <meta property="og:url" content=".." />
 
 
-  <title> &ndash; Posts by : - Moonstone Minarets</title>
+  <title>
+      - Moonstone Minarets
+  </title>
 
 
 </head>
@@ -117,25 +118,28 @@
 
 <article>
   <header>
-    <h2><a href="../dr-vortex-web-of-shadows.html#dr-vortex-web-of-shadows">Dr. Vortex's Web of Shadows</a></h2>
+    <h2><a href="../the-amazing-whisker-warriors.html#the-amazing-whisker-warriors">The Amazing Whisker Warriors</a></h2>
     <p>
       <!-- Disables the "posted on X in Y" thing on the HOME PAGE yaar -->
-      <!-- Posted on Tue 27 June 2023 in <a href="../category/books.html">Books</a> -->
+      <!-- Posted on Wed 23 August 2023 in <a href="../category/books.html">Books</a> -->
 
 
     </p>
   </header>
   <div>
-      <div><p>Embark on an electrifying journey through the captivating world of "the Battle Against SHADOW's Darkness." Crafted specifically for teenagers seeking gripping adventures, and cherished by parents who value meaningful reads, this extraordinary sci-fi tale intertwines mystery, friendship, and the power of faith.</p></div>
+      <div><p>Step into the paws of Zaid and his extraordinary feline friends! When their friends are captured by a menacing force, these fearless cats must use their unique powers – from invisibility to sonic screeches – to rescue them from the clutches of danger.</p></div>
         <br>
         <a class="btn"
-           href="../dr-vortex-web-of-shadows.html#dr-vortex-web-of-shadows">
+           href="../the-amazing-whisker-warriors.html#the-amazing-whisker-warriors">
           Continue reading
         </a>
   </div>
 </article>
 
   <div class="pagination">
+    <a class="btn float-left" href="../author/.html8">
+      <i class="fa fa-angle-left"></i> Older Posts
+    </a>
     <a class="btn float-right" href="../author/.html6">
       Newer Posts <i class="fa fa-angle-right"></i>
     </a>

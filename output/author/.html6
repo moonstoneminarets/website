@@ -34,7 +34,6 @@
 
 
 
-
  
 
     <meta name="author" content="" />
@@ -48,7 +47,9 @@
     <meta property="og:url" content=".." />
 
 
-  <title> &ndash; Posts by : - Moonstone Minarets</title>
+  <title>
+      - Moonstone Minarets
+  </title>
 
 
 </head>
@@ -117,19 +118,19 @@
 
 <article>
   <header>
-    <h2><a href="../the-amazing-whisker-warriors.html#the-amazing-whisker-warriors">The Amazing Whisker Warriors</a></h2>
+    <h2><a href="../minaret-adventures.html#minaret-adventures">Minaret Adventures</a></h2>
     <p>
       <!-- Disables the "posted on X in Y" thing on the HOME PAGE yaar -->
-      <!-- Posted on Wed 23 August 2023 in <a href="../category/books.html">Books</a> -->
+      <!-- Posted on Sun 24 September 2023 in <a href="../category/books.html">Books</a> -->
 
 
     </p>
   </header>
   <div>
-      <div><p>Step into the paws of Zaid and his extraordinary feline friends! When their friends are captured by a menacing force, these fearless cats must use their unique powers – from invisibility to sonic screeches – to rescue them from the clutches of danger.</p></div>
+      <div><p>Embark on a literary journey with a collection of 12 mesmerizing short stories that weave together fantasy, modern-day dilemmas, and futuristic adventures, all while placing Islam and Muslims at the heart of each narrative.</p></div>
         <br>
         <a class="btn"
-           href="../the-amazing-whisker-warriors.html#the-amazing-whisker-warriors">
+           href="../minaret-adventures.html#minaret-adventures">
           Continue reading
         </a>
   </div>

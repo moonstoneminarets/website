@@ -10,18 +10,18 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="./theme/stylesheet/style.min.css">
-    <link rel="stylesheet" type="text/css" href="./theme/stylesheet/book-styles.css">
+    <link rel="stylesheet" type="text/css" href="../theme/stylesheet/style.min.css">
+    <link rel="stylesheet" type="text/css" href="../theme/stylesheet/book-styles.css">
 
 
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
-          href="./theme/pygments/github.min.css">
+          href="../theme/pygments/github.min.css">
 
 
 
-  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
-  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
-  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
+  <link rel="stylesheet" type="text/css" href="../theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="../theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="../theme/font-awesome/css/solid.css">
 
 
 
@@ -42,15 +42,12 @@
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US" />
 
-    <meta property="og:title" content="New Books and Special Offers" />
-    <meta property="og:description" content="To grab our existing books on sale, or get notified whenever a new book is out or coming soon, sign up to our mailing list! We promise not to use your email for anything other than book-related notifications. You can unsubscribe at any time." />
-    <meta property="og:url" content="./new-books-and-special-offers.html" />
-
-
+    <meta property="og:title" content="Moonstone Minarets" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content=".." />
 
 
   <title>
-          New Books and Special Offers
       - Moonstone Minarets
   </title>
 
@@ -60,12 +57,12 @@
 
 <aside>
   <div>
-    <a href="./">
-      <img src="./theme/img/profile.png" alt="" title="">
+    <a href="../">
+      <img src="../theme/img/profile.png" alt="" title="">
     </a>
 
     <h1>
-      <a href="./"></a>
+      <a href="../"></a>
     </h1>
 
 
@@ -80,31 +77,31 @@
 
               <li>
                 <a target="_self"
-                  href="./about.html#about">
+                  href="../about.html#about">
                   About
                 </a>
               </li>
               <li>
                 <a target="_self"
-                  href="./books.html#books">
+                  href="../books.html#books">
                   Books
                 </a>
               </li>
               <li>
                 <a target="_self"
-                  href="./for-authors.html#for-authors">
+                  href="../for-authors.html#for-authors">
                   For Authors
                 </a>
               </li>
               <li>
                 <a target="_self"
-                  href="./jannah-journies.html#jannah-journies">
+                  href="../jannah-journies.html#jannah-journies">
                   Jannah Journies
                 </a>
               </li>
               <li>
                 <a target="_self"
-                  href="./new-books-and-special-offers.html#new-books-and-special-offers">
+                  href="../new-books-and-special-offers.html#new-books-and-special-offers">
                   New Books and Special Offers
                 </a>
               </li>
@@ -117,15 +114,35 @@
   <main>
 
 
-<article class="single">
+
+
+<article>
   <header>
-    
-    <h1 id="new-books-and-special-offers">New Books and Special Offers</h1>
+    <h2><a href="../dr-vortex-web-of-shadows.html#dr-vortex-web-of-shadows">Dr. Vortex's Web of Shadows</a></h2>
+    <p>
+      <!-- Disables the "posted on X in Y" thing on the HOME PAGE yaar -->
+      <!-- Posted on Tue 27 June 2023 in <a href="../category/books.html">Books</a> -->
+
+
+    </p>
   </header>
   <div>
-<p>To grab our existing books on sale, or get notified whenever a new book is out or coming soon, sign up to our mailing list! We <em>promise</em> not to use your email for anything other than book-related notifications. You can unsubscribe at any time.</p>
-<script async src="https://eocampaign1.com/form/6098b1b0-2863-11ef-a1c1-3d8abbcc411c.js" data-form="6098b1b0-2863-11ef-a1c1-3d8abbcc411c"></script>  </div>
+      <div><p>Embark on an electrifying journey through the captivating world of "the Battle Against SHADOW's Darkness." Crafted specifically for teenagers seeking gripping adventures, and cherished by parents who value meaningful reads, this extraordinary sci-fi tale intertwines mystery, friendship, and the power of faith.</p></div>
+        <br>
+        <a class="btn"
+           href="../dr-vortex-web-of-shadows.html#dr-vortex-web-of-shadows">
+          Continue reading
+        </a>
+  </div>
 </article>
+
+  <div class="pagination">
+    <a class="btn float-right" href="../author/.html7">
+      Newer Posts <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+
+
 
 <footer>
 <p>&copy; 2025 </p>
@@ -137,7 +154,7 @@
   "@context" : "http://schema.org",
   "@type" : "Blog",
   "name": " Moonstone Minarets ",
-  "url" : ".",
+  "url" : "..",
   "image": "",
   "description": ""
 }
