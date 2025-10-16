@@ -14,7 +14,39 @@
     </section>
 
     <div class="cta">
-      <p><a href="{{ article.metadata.buy_link }}" class="buy-button">Buy Now</a></p>
+        <hr />
+        <h2>Buy Now</h2>
+        {% if article.buy_link %}<a href="{{article.buy_link}}" class="buy-button main-buy-button">Buy {{article.title}}</a>{% endif %}
+        <hr />
+        
+        <!-- Paperback Retailers -->
+        <h3>Paperback</h3>
+        <div class="buy-links paperback-links">
+            {% if article.buy_paperback_abebooks %}<a href="{{buy_paperback_abebooks}}" class="buy-button">AbeBooks</a>{% endif %}
+            {% if article.buy_paperback_amazon %}<a href="{{buy_paperback_amazon}}" class="buy-button">Amazon</a>{% endif %}
+            {% if article.buy_paperback_barnes_noble %}<a href="{{buy_paperback_barnes_noble}}" class="buy-button">Barnes & Noble</a>{% endif %}
+            {% if article.buy_paperback_bookshop_org %}<a href="{{buy_paperback_bookshop_org}}" class="buy-button">Bookshop.org</a>{% endif %}
+            {% if article.buy_paperback_indigo %}<a href="{{buy_paperback_indigo}}" class="buy-button">Indigo</a>{% endif %}
+            {% if article.buy_paperback_libroworld %}<a href="{{buy_paperback_libroworld}}" class="buy-button">LibroWorld</a>{% endif %}
+            {% if article.buy_paperback_readings %}<a href="{{buy_paperback_readings}}" class="buy-button">Readings</a>{% endif %}
+            {% if article.buy_paperback_thalia %}<a href="{{buy_paperback_thalia}}" class="buy-button">Thalia</a>{% endif %}
+            {% if article.buy_paperback_walmart %}<a href="{{buy_paperback_walmart}}" class="buy-button">Walmart</a>{% endif %}
+        </div>
+
+        <!-- eBook Retailers -->
+        <h3>eBook</h3>
+        <div class="buy-links ebook-links">
+            {% if article.buy_ebook_amazon %}<a href="{{buy_ebook_amazon}}" class="buy-button">Amazon</a>{% endif %}
+            {% if article.buy_ebook_apple %}<a href="{{buy_ebook_apple}}" class="buy-button">Apple Books</a>{% endif %}
+            {% if article.buy_ebook_barnes_noble %}<a href="{{buy_ebook_barnes_noble}}" class="buy-button">Barnes & Noble</a>{% endif %}
+            {% if article.buy_ebook_everand %}<a href="{{buy_ebook_everand}}" class="buy-button">Everand</a>{% endif %}
+            {% if article.buy_ebook_fable %}<a href="{{buy_ebook_fable}}" class="buy-button">Fable</a>{% endif %}
+            {% if article.buy_ebook_indigo %}<a href="{{buy_ebook_indigo}}" class="buy-button">Indigo</a>{% endif %}
+            {% if article.buy_ebook_kobo %}<a href="{{buy_ebook_kobo}}" class="buy-button">Kobo</a>{% endif %}
+            {% if article.buy_ebook_smashwords %}<a href="{{buy_ebook_smashwords}}" class="buy-button">Smashwords</a>{% endif %}
+            {% if article.buy_ebook_thalia %}<a href="{{buy_ebook_thalia}}" class="buy-button">Thalia</a>{% endif %}
+            {% if article.buy_ebook_vivlio %}<a href="{{buy_ebook_vivlio}}" class="buy-button">Vivlio</a>{% endif %}
+        </div>
     </div>
   </article>
 {% endblock %}
