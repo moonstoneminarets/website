@@ -1,16 +1,17 @@
-Title: The Olive Heist
+---
+title: The Olive Heist
 Date: 2025-01-24
-
+---
 
 ## Audio
 
 <audio controls>
-    <source src="|static|/audio/the-olive-heist.mp3" type="audio/mpeg">
-    <source src="|static|/audio/the-olive-heist.m4a" type="audio/mp4">
+    <source src="/audio/the-olive-heist.mp3" type="audio/mpeg">
+    <source src="/audio/the-olive-heist.m4a" type="audio/mp4">
     Your browser does not support playing the story audio! 😭
 </audio>
 
-<img style="width: 50%; height: 50%;" src="|static|/images/jannah-journeys/the-olive-heist.png" />
+<img style="width: 50%; height: 50%;" src="/images/jannah-journeys/the-olive-heist.png" />
 
 ## Text
 

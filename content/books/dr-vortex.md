@@ -1,9 +1,10 @@
-Title: Dr. Vortex's Web of Shadows
-Date: 2023-06-27
-Category: Books
-Slug: dr-vortex-web-of-shadows
-Summary: Embark on an electrifying journey through the captivating world of "the Battle Against SHADOW's Darkness." Crafted specifically for teenagers seeking gripping adventures, and cherished by parents who value meaningful reads, this extraordinary sci-fi tale intertwines mystery, friendship, and the power of faith.
-cover: /images/covers/dr-vortex.jpg
+---
+title: Dr. Vortex's Web of Shadows
+datePublished: 2023-06-27 10:00:00
+category: Books
+slug: dr-vortex-web-of-shadows
+summary: Embark on an electrifying journey through the captivating world of "the Battle Against SHADOW's Darkness." Crafted specifically for teenagers seeking gripping adventures, and cherished by parents who value meaningful reads, this extraordinary sci-fi tale intertwines mystery, friendship, and the power of faith.
+cover: dr-vortex.jpg
 buy_paperback_amazon: https://www.amazon.com/Doctor-Vortexs-Web-Shadows-Darkness/dp/B0C9KCHZF8
 buy_ebook_amazon: https://www.amazon.com/Doctor-Vortexs-Web-Shadows-Darkness-ebook/dp/B0C9GQ7QL3
 buy_ebook_apple: https://books.apple.com/ca/book/dr-vortexs-web-of-shadows/id6467467915

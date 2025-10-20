@@ -1,16 +1,17 @@
-Title: The Little Lantern
+---
+title: The Little Lantern
 Date: 2025-01-14
-
+---
 
 ## Audio
 
 <audio controls>
-    <source src="|static|/audio/the-little-lantern.mp3" type="audio/mpeg">
-    <source src="|static|/audio/the-little-lantern.m4a" type="audio/mp4">
+    <source src="/audio/the-little-lantern.mp3" type="audio/mpeg">
+    <source src="/audio/the-little-lantern.m4a" type="audio/mp4">
     Your browser does not support playing the story audio! 😭
 </audio>
 
-<img style="width: 50%; height: 50%;" src="|static|/images/jannah-journeys/the-little-lantern.png" />
+<img style="width: 50%; height: 50%;" src="/images/jannah-journeys/the-little-lantern.png" />
 
 ## Text
 

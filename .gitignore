@@ -1,1 +1,3 @@
 **/*.pyc
+# Temporary while converting to MoonPress
+content-pelican-backup

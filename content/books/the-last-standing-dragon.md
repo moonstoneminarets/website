@@ -1,9 +1,10 @@
-Title: The Last Standing Dragon
-Date: 2025-06-05
-Category: Books
-Slug: the-last-standing-dragon
-Summary: In a world of whispering winds and forgotten magic, young dragon Bilal sets out to find his missing mother—only to uncover a growing darkness that threatens all dragonkind. With loyal friends and his siblings by his side, Bilal must brave cursed forests, ancient ruins, and the secrets of a past no one dares to speak aloud.
-cover: /images/covers/the-last-standing-dragon.jpg
+---
+title: The Last Standing Dragon
+datePublished: 2025-06-05 10:00:00
+category: Books
+slug: the-last-standing-dragon
+summary: In a world of whispering winds and forgotten magic, young dragon Bilal sets out to find his missing mother—only to uncover a growing darkness that threatens all dragonkind. With loyal friends and his siblings by his side, Bilal must brave cursed forests, ancient ruins, and the secrets of a past no one dares to speak aloud.
+cover: the-last-standing-dragon.jpg
 buy_paperback_abebooks: https://www.abebooks.com/9798231540235/Last-Standing-Dragon-Alibhai-Ashiq/plp
 buy_paperback_amazon: https://www.amazon.com/Last-Standing-Dragon-Ashiq-Alibhai/dp/B0FC88CW6X
 buy_paperback_barnes_noble: https://www.barnesandnoble.com/w/the-last-standing-dragon-ashiq-alibhai/1147533265?ean=9798231540235

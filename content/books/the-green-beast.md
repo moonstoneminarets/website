@@ -1,9 +1,10 @@
-Title: The Green Beast
-Date: 2025-04-25
-Category: Books
-Slug: the-green-beast
-Summary: In the grim and decaying kingdom of Caldur Hollow, Sir Tariq, a once-proud knight cursed into the form of a monstrous frog, must confront his past and the legacy of his fallen mentor. As he hunts for vengeance, he encounters a world where magic is both a curse and a gift, and where revenge comes with a heavy cost.
-cover: /images/covers/the-green-beast.jpg
+---
+title: The Green Beast
+datePublished: 2025-04-25 10:00:00
+category: Books
+slug: the-green-beast
+summary: In the grim and decaying kingdom of Caldur Hollow, Sir Tariq, a once-proud knight cursed into the form of a monstrous frog, must confront his past and the legacy of his fallen mentor. As he hunts for vengeance, he encounters a world where magic is both a curse and a gift, and where revenge comes with a heavy cost.
+cover: the-green-beast.jpg
 buy_paperback_abebooks: https://www.abebooks.com/9798231912230/Green-Beast-Alibhai-Ashiq/plp
 buy_paperback_amazon: https://www.amazon.com/Green-Beast-Ashiq-Alibhai/dp/B0F7FRD7WY/
 buy_paperback_barnes_noble: https://www.barnesandnoble.com/w/the-green-beast-ashiq-alibhai/1147338524?ean=9798231912230

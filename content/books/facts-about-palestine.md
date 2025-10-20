@@ -1,9 +1,10 @@
-Title: Facts About Palestine
-Date: 2023-11-06
-Category: Books
-Slug: facts-about-palestine
-Summary: Journey into Palestine's enduring quest for justice, from 1917 to today. Uncover historical human rights violations, told through meticulously researched facts and quotes. This book navigates the complex history and challenges faced by Palestinians, shedding light on the injustices that have endured through the decades.
-cover: /images/covers/facts-about-palestine.jpg
+---
+title: Facts About Palestine
+datePublished: 2023-11-06 10:00:00
+category: Books
+slug: facts-about-palestine
+summary: Journey into Palestine's enduring quest for justice, from 1917 to today. Uncover historical human rights violations, told through meticulously researched facts and quotes. This book navigates the complex history and challenges faced by Palestinians, shedding light on the injustices that have endured through the decades.
+cover: facts-about-palestine.jpg
 buy_link: https://books2read.com/palestine
 template: book
 ---

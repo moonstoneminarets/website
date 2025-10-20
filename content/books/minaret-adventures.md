@@ -1,9 +1,10 @@
-Title: Minaret Adventures
-Date: 2023-09-24
-Category: Books
-Slug: minaret-adventures
-Summary: Embark on a literary journey with a collection of 12 mesmerizing short stories that weave together fantasy, modern-day dilemmas, and futuristic adventures, all while placing Islam and Muslims at the heart of each narrative.
-cover: /images/covers/minaret-adventures.jpg
+---
+title: Minaret Adventures
+datePublished: 2023-09-24 10:00:00
+category: Books
+slug: minaret-adventures
+summary: Embark on a literary journey with a collection of 12 mesmerizing short stories that weave together fantasy, modern-day dilemmas, and futuristic adventures, all while placing Islam and Muslims at the heart of each narrative.
+cover: minaret-adventures.jpg
 buy_paperback_abebooks: https://www.abebooks.com/9798223507673/Minaret-Adventures-Ashiq-Alibhai/plp
 buy_paperback_amazon: https://www.amazon.com/Minaret-Adventures-Ashiq-Alibhai/dp/B0CJXR457Q
 buy_paperback_bookshop_org: https://bookshop.org/p/books/minaret-adventures-ashiq-alibhai/21562759?ean=9798223507673

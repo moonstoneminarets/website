@@ -1,9 +1,10 @@
-Title: The Amazing Whisker Warriors
-Date: 2023-08-23
-Category: Books
-Slug: the-amazing-whisker-warriors
-Summary: Step into the paws of Zaid and his extraordinary feline friends! When their friends are captured by a menacing force, these fearless cats must use their unique powers – from invisibility to sonic screeches – to rescue them from the clutches of danger.
-cover: /images/covers/whisker-warriors.jpg
+---
+title: The Amazing Whisker Warriors
+datePublished: 2023-08-23 10:00:00
+category: Books
+slug: the-amazing-whisker-warriors
+summary: Step into the paws of Zaid and his extraordinary feline friends! When their friends are captured by a menacing force, these fearless cats must use their unique powers – from invisibility to sonic screeches – to rescue them from the clutches of danger.
+cover: whisker-warriors.jpg
 buy_paperback_amazon: https://www.amazon.com/Amazing-Whisker-Warriors-Ashiq-Alibhai/dp/B0CFZJK6R5
 buy_ebook_amazon: https://www.amazon.com/Amazing-Whisker-Warriors-Ashiq-Alibhai-ebook/dp/B0CG115N9H
 buy_ebook_apple: https://books.apple.com/us/book/the-amazing-whisker-warriors/id6467469864
