@@ -1,0 +1,26 @@
+<h1>Jannah Journeys</h1>
+<p class="intro-text">Audio adventures from Paradise! Listen to exciting stories filled with fun, friendship, and Islamic values.</p>
+
+<div class="jannah-journeys-grid">
+  {{posts | category="Jannah Journeys"}}
+    <div class="journey-card">
+      <div class="journey-image">
+        <a href="{{url}}">
+          <img src="/images/jannah-journeys/{{slug}}.png" alt="{{title}} story image">
+        </a>
+      </div>
+      <div class="journey-info">
+        <h2 class="journey-title">
+          <a href="{{url}}">{{title}}</a>
+        </h2>
+        <div class="journey-meta">
+          <span class="journey-date">🎧 Audio Story</span>
+          {{#date}}
+          <span class="journey-date">{{date}}</span>
+          {{/date}}
+        </div>
+        <p><a href="{{url}}" class="listen-now">Listen now →</a></p>
+      </div>
+    </div>
+  {{/posts}}
+</div>

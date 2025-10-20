@@ -1,0 +1,490 @@
+/* CSS Variables for easy theming */
+:root {
+  --color-primary: #36F;
+  --color-primary-dark: #008;
+  --color-text: #1f2937;
+  --color-text-light: #6b7280;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f9fafb;
+  --color-border: #e5e7eb;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --border-radius: 12px;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg-alt);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+/* Header */
+.site-header {
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow-sm);
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: var(--spacing-sm);
+  padding-bottom: var(--spacing-sm);
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.logo-icon {
+  font-size: 1.5rem;
+}
+
+.logo-text {
+  color: var(--color-primary);
+}
+
+/* Navigation */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: var(--spacing-xs);
+}
+
+.mobile-menu-toggle span {
+  width: 24px;
+  height: 2px;
+  background-color: var(--color-text);
+  transition: all 0.3s ease;
+}
+
+.mobile-menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.mobile-menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: var(--spacing-md);
+}
+
+.nav-list li a {
+  color: var(--color-text-light);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  padding: var(--spacing-xs);
+}
+
+.nav-list li a:hover {
+  color: var(--color-primary);
+}
+
+/* Main Content */
+.site-main {
+  flex: 1;
+  padding: var(--spacing-xl) 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+
+p {
+  margin: var(--spacing-md) 0px;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+/* Book Grid */
+.book-grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: var(--spacing-lg);
+  background: var(--color-bg);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+  margin-bottom: var(--spacing-xl);
+}
+
+.book-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--spacing-xs);
+  box-shadow: var(--shadow-lg);
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-title {
+  margin-bottom: var(--spacing-sm);
+}
+
+.book-title a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.book-title a:hover {
+  color: var(--color-text);
+}
+
+.book-summary {
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-md);
+}
+
+.read-more {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+/* Book Page */
+.book-page {
+  background: var(--color-bg);
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+}
+
+.book-page header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.book-cover {
+  margin: var(--spacing-lg) auto;
+  max-width: 300px;
+}
+
+.book-cover img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--spacing-sm);
+  box-shadow: var(--shadow-lg);
+}
+
+.book-description {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-xl);
+}
+
+/* CTA Section */
+.cta {
+  background: var(--color-bg-alt);
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius);
+  margin-top: var(--spacing-xl);
+}
+
+.cta h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.cta h3 {
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-light);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cta hr {
+  border: none;
+  height: 1px;
+  background: var(--color-border);
+  margin: var(--spacing-lg) 0;
+}
+
+.buy-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+}
+
+.buy-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: var(--spacing-xs);
+  font-weight: 600;
+  transition: all 0.2s;
+  box-shadow: var(--shadow-sm);
+}
+
+.buy-button:hover {
+  background-color: var(--color-primary-dark);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  text-decoration: none;
+}
+
+/* Audio player */
+audio {
+  width: 100%;
+  margin: var(--spacing-lg) 0;
+  border-radius: var(--spacing-xs);
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--color-text);
+  color: white;
+  padding: var(--spacing-lg) 0;
+  margin-top: auto;
+}
+
+.site-footer p {
+  text-align: center;
+  margin: 0;
+  opacity: 0.8;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  
+  .mobile-menu-toggle {
+    display: flex;
+  }
+  
+  .nav-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--color-bg);
+    flex-direction: column;
+    gap: 0;
+    padding: var(--spacing-md);
+    border-top: 1px solid var(--color-border);
+    box-shadow: var(--shadow-lg);
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-list.active {
+    max-height: 500px;
+    opacity: 1;
+  }
+  
+  .nav-list li {
+    border-bottom: 1px solid var(--color-border);
+  }
+  
+  .nav-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .nav-list li a {
+    display: block;
+    padding: var(--spacing-md);
+  }
+  
+  .book-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+    text-align: center;
+  }
+  
+  .book-image {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  .book-page {
+    padding: var(--spacing-md);
+  }
+  
+  .cta {
+    padding: var(--spacing-md);
+  }
+  
+  .buy-links {
+    justify-content: center;
+  }
+}
+
+li {
+    margin-left: 50px;
+}
+
+/* Jannah Journeys Grid */
+.intro-text {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-xl);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jannah-journeys-grid {
+  display: grid;
+  gap: var(--spacing-xl);
+}
+
+.journey-card {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: var(--spacing-lg);
+  background: var(--color-bg);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.journey-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.journey-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--spacing-sm);
+  box-shadow: var(--shadow-md);
+}
+
+.journey-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.journey-title {
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.75rem;
+}
+
+.journey-title a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.journey-title a:hover {
+  color: var(--color-primary);
+}
+
+.journey-meta {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+}
+
+.journey-type {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.listen-now {
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 1.1rem;
+}
+
+/* Responsive for Jannah Journeys */
+@media (max-width: 768px) {
+  .journey-card {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+    text-align: center;
+  }
+  
+  .journey-image {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  
+  .journey-meta {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" type="text/css" href="/style.css">
+
+  <title>Category: pages - Moonstone Minarets</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">
+        <a href="/">
+          <span class="logo-icon">🌙</span>
+          <span class="logo-text">Moonstone Minarets</span>
+        </a>
+      </div>
+      <nav class="main-nav">
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="/">Home</a></li>
+                          <a href="/about.html" class="nav-link">About</a>
+                <a href="/books.html" class="nav-link">Books</a>
+                <a href="/for-authors.html" class="nav-link">For Authors</a>
+                <a href="/jannah-journeys.html" class="nav-link">Jannah Journeys</a>
+                <a href="/new-books.html" class="nav-link">Special Offers</a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+      <h1>Category: pages</h1>
+<ul>
+<li><a href="/books.html">Books</a></li>
+<li><a href="/jannah-journeys.html">Jannah Journeys</a></li>
+<li><a href="/about.html">About</a></li>
+<li><a href="/for-authors.html">For Authors</a></li>
+<li><a href="/new-books.html">Special Offers</a></li>
+<li><a href="/index.html">Home</a></li>
+
+</ul>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Moonstone Minarets. Islamic fiction and stories for all ages.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Simple mobile menu toggle
+    const menuToggle = document.querySelector('.mobile-menu-toggle');
+    const navList = document.querySelector('.nav-list');
+    
+    if (menuToggle) {
+      menuToggle.addEventListener('click', () => {
+        navList.classList.toggle('active');
+        menuToggle.classList.toggle('active');
+      });
+    }
+  </script>
+</body>
+</html>

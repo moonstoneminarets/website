@@ -1,0 +1,41 @@
+<article class="book-page">
+  <header>
+    <h1>{{title}}</h1>
+    <div class="book-cover">
+      <img src="/images/covers/{{cover}}" alt="{{title}} Cover">
+    </div>
+  </header>
+
+  <section class="book-description">
+    {{content}}
+  </section>
+
+  <div class="cta">
+    <hr />
+    <h2>Buy Now</h2>
+    <hr />
+    
+    <!-- Paperback Retailers -->
+    <h3>Paperback</h3>
+    <div class="buy-links paperback-links">
+      {{if field_exists buy_paperback_amazon}}<a href="{{buy_paperback_amazon}}" class="buy-button" target="_blank">Amazon</a>{{/if}}
+      {{if field_exists buy_paperback_barnes_noble}}<a href="{{buy_paperback_barnes_noble}}" class="buy-button" target="_blank">Barnes & Noble</a>{{/if}}
+      {{if field_exists buy_paperback_indigo}}<a href="{{buy_paperback_indigo}}" class="buy-button" target="_blank">Indigo</a>{{/if}}
+    </div>
+
+    <!-- eBook Retailers -->
+    <h3>eBook</h3>
+    <div class="buy-links ebook-links">
+      {{if field_exists buy_ebook_amazon}}<a href="{{buy_ebook_amazon}}" class="buy-button" target="_blank">Amazon</a>{{/if}}
+      {{if field_exists buy_ebook_apple}}<a href="{{buy_ebook_apple}}" class="buy-button" target="_blank">Apple Books</a>{{/if}}
+      {{if field_exists buy_ebook_barnes_noble}}<a href="{{buy_ebook_barnes_noble}}" class="buy-button" target="_blank">Barnes & Noble</a>{{/if}}
+      {{if field_exists buy_ebook_everand}}<a href="{{buy_ebook_everand}}" class="buy-button" target="_blank">Everand</a>{{/if}}
+      {{if field_exists buy_ebook_fable}}<a href="{{buy_ebook_fable}}" class="buy-button" target="_blank">Fable</a>{{/if}}
+      {{if field_exists buy_ebook_indigo}}<a href="{{buy_ebook_indigo}}" class="buy-button" target="_blank">Indigo</a>{{/if}}
+      {{if field_exists buy_ebook_kobo}}<a href="{{buy_ebook_kobo}}" class="buy-button" target="_blank">Kobo</a>{{/if}}
+      {{if field_exists buy_ebook_smashwords}}<a href="{{buy_ebook_smashwords}}" class="buy-button" target="_blank">Smashwords</a>{{/if}}
+      {{if field_exists buy_ebook_thalia}}<a href="{{buy_ebook_thalia}}" class="buy-button" target="_blank">Thalia</a>{{/if}}
+      {{if field_exists buy_ebook_vivlio}}<a href="{{buy_ebook_vivlio}}" class="buy-button" target="_blank">Vivlio</a>{{/if}}
+    </div>
+  </div>
+</article>
