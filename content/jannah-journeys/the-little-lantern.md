@@ -1,5 +1,6 @@
 ---
 title: The Little Lantern
+Category: Jannah Journeys
 Date: 2025-01-14
 ---
 

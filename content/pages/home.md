@@ -5,6 +5,10 @@ category: pages
 slug: index
 ---
 
+## About
+
+Moonstone Minarets is a one-man publishing house run by [Ashiq Alibhai](https://ashiqalibhai.com). We publish Islamic fantasy and sci-fi, and occasionally non-fiction. You can find out more about why Moonstone Minarets exists at our [about page](about.html).
+
 ## Jannah Journies
 
 [Jannah Journies](/jannah-journeys.html) are wholesome, faith-inspired audio stories that spark young imaginations and nurture Islamic values, one captivating tale at a time.
