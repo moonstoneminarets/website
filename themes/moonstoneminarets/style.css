@@ -155,7 +155,7 @@ h3 { font-size: 1.5rem; }
 h4 { font-size: 1.25rem; }
 
 p {
-  margin-bottom: var(--spacing-md);
+  margin: var(--spacing-md) 0px;
 }
 
 a {
@@ -388,6 +388,10 @@ audio {
   .buy-links {
     justify-content: center;
   }
+}
+
+li {
+    margin-left: 50px;
 }
 
 /* Jannah Journeys Grid */

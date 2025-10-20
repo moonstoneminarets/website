@@ -3,6 +3,7 @@ title: Home
 datePublished: 2023-10-19 10:00:00
 category: pages
 slug: index
+display: false
 ---
 
 ## About
