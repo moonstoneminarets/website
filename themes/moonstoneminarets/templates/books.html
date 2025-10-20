@@ -1,0 +1,20 @@
+<h1>Our Books</h1>
+
+<div class="books-grid">
+  {{posts | category="Books"}}
+    <div class="book-grid">
+      <div class="book-image">
+        <a href="{{url}}">
+          <img src="/images/covers/{{cover}}" alt="{{title}} cover">
+        </a>
+      </div>
+      <div class="book-info">
+        <h2 class="book-title">
+          <a href="{{url}}">{{title}}</a>
+        </h2>
+        <p class="book-summary">{{summary}}</p>
+        <p><a href="{{url}}" class="read-more">Read more →</a></p>
+      </div>
+    </div>
+  {{/posts}}
+</div>
