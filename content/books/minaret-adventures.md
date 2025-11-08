@@ -5,12 +5,14 @@ category: Books
 slug: minaret-adventures
 summary: Embark on a literary journey with a collection of 12 mesmerizing short stories that weave together fantasy, modern-day dilemmas, and futuristic adventures, all while placing Islam and Muslims at the heart of each narrative.
 cover: minaret-adventures.jpg
+
 buy_paperback_abebooks: https://www.abebooks.com/9798223507673/Minaret-Adventures-Ashiq-Alibhai/plp
 buy_paperback_amazon: https://www.amazon.com/Minaret-Adventures-Ashiq-Alibhai/dp/B0CJXR457Q
 buy_paperback_bookshop_org: https://bookshop.org/p/books/minaret-adventures-ashiq-alibhai/21562759?ean=9798223507673
 buy_paperback_indigo: https://www.indigo.ca/en-ca/minaret-adventures/9798223507673.html
 buy_paperback_thalia: https://www.thalia.de/shop/home/artikeldetails/A1069860503
 buy_paperback_walmart: https://www.walmart.com/ip/Minaret-Adventures-Paperback-9798223507673/5066246779
+
 buy_ebook_amazon: https://www.amazon.com/Minaret-Adventures-Ashiq-Alibhai-ebook/dp/B0CK9R86YL
 buy_ebook_apple: https://books.apple.com/us/book/minaret-adventures/id6467591704
 buy_ebook_barnes_noble: https://www.barnesandnoble.com/w/minaret-adventures-ashiq-alibhai/1144118656?ean=2940179090786

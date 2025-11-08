@@ -16,21 +16,21 @@
     <div class="cta">
         <hr />
         <h2>Buy Now</h2>
-        {% if article.buy_link %}<a href="{{article.buy_link}}" class="buy-button main-buy-button">Buy {{article.title}}</a>{% endif %}
+        {{if field_exists buy_link}}<a href="{{buy_link}}" class="buy-button main-buy-button">Buy Now</a>{{/if}}
         <hr />
         
         <!-- Paperback Retailers -->
         <h3>Paperback</h3>
         <div class="buy-links paperback-links">
-            {% if article.buy_paperback_abebooks %}<a href="{{buy_paperback_abebooks}}" class="buy-button">AbeBooks</a>{% endif %}
-            {% if article.buy_paperback_amazon %}<a href="{{buy_paperback_amazon}}" class="buy-button">Amazon</a>{% endif %}
-            {% if article.buy_paperback_barnes_noble %}<a href="{{buy_paperback_barnes_noble}}" class="buy-button">Barnes & Noble</a>{% endif %}
-            {% if article.buy_paperback_bookshop_org %}<a href="{{buy_paperback_bookshop_org}}" class="buy-button">Bookshop.org</a>{% endif %}
-            {% if article.buy_paperback_indigo %}<a href="{{buy_paperback_indigo}}" class="buy-button">Indigo</a>{% endif %}
-            {% if article.buy_paperback_libroworld %}<a href="{{buy_paperback_libroworld}}" class="buy-button">LibroWorld</a>{% endif %}
-            {% if article.buy_paperback_readings %}<a href="{{buy_paperback_readings}}" class="buy-button">Readings</a>{% endif %}
-            {% if article.buy_paperback_thalia %}<a href="{{buy_paperback_thalia}}" class="buy-button">Thalia</a>{% endif %}
-            {% if article.buy_paperback_walmart %}<a href="{{buy_paperback_walmart}}" class="buy-button">Walmart</a>{% endif %}
+          {{if field_exists buy_paperback_abebooks}}<a href="{{buy_paperback_abebooks}}" class="buy-button">AbeBooks</a>{{/if}}
+          {{if field_exists buy_paperback_amazon}}<a href="{{buy_paperback_amazon}}" class="buy-button">Amazon</a>{{/if}}
+          {{if field_exists buy_paperback_barnes_noble}}<a href="{{buy_paperback_barnes_noble}}" class="buy-button">Barnes & Noble</a>{{/if}}
+          {{if field_exists buy_paperback_bookshop_org}}<a href="{{buy_paperback_bookshop_org}}" class="buy-button">Bookshop.org</a>{{/if}}
+          {{if field_exists buy_paperback_indigo}}<a href="{{buy_paperback_indigo}}" class="buy-button">Indigo</a>{{/if}}
+          {{if field_exists buy_paperback_libroworld}}<a href="{{buy_paperback_libroworld}}" class="buy-button">LibroWorld</a>{{/if}}
+          {{if field_exists buy_paperback_readings}}<a href="{{buy_paperback_readings}}" class="buy-button">Readings</a>{{/if}}
+          {{if field_exists buy_paperback_thalia}}<a href="{{buy_paperback_thalia}}" class="buy-button">Thalia</a>{{/if}}
+          {{if field_exists buy_paperback_walmart}}<a href="{{buy_paperback_walmart}}" class="buy-button">Walmart</a>{{/if}}
         </div>
 
         <!-- eBook Retailers -->

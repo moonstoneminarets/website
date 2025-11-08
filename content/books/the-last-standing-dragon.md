@@ -5,12 +5,14 @@ category: Books
 slug: the-last-standing-dragon
 summary: In a world of whispering winds and forgotten magic, young dragon Bilal sets out to find his missing mother—only to uncover a growing darkness that threatens all dragonkind. With loyal friends and his siblings by his side, Bilal must brave cursed forests, ancient ruins, and the secrets of a past no one dares to speak aloud.
 cover: the-last-standing-dragon.jpg
+
 buy_paperback_abebooks: https://www.abebooks.com/9798231540235/Last-Standing-Dragon-Alibhai-Ashiq/plp
 buy_paperback_amazon: https://www.amazon.com/Last-Standing-Dragon-Ashiq-Alibhai/dp/B0FC88CW6X
 buy_paperback_barnes_noble: https://www.barnesandnoble.com/w/the-last-standing-dragon-ashiq-alibhai/1147533265?ean=9798231540235
 buy_paperback_bookshop_org: https://bookshop.org/p/books/the-last-standing-dragon-abdurrahman-ashiq/957f715c29da829f?ean=9798231540235
 buy_paperback_thalia: https://www.thalia.de/shop/home/artikeldetails/A1075600306
 buy_paperback_walmart: https://www.walmart.com/ip/The-Last-Standing-Dragon-Paperback-9798231540235/16763124603?classType=REGULAR
+
 buy_ebook_amazon: https://www.amazon.com/Last-Standing-Dragon-Ashiq-Alibhai-ebook/dp/B0DW91NMM4
 buy_ebook_apple: https://books.apple.com/us/book/the-last-standing-dragon/id6746807990
 buy_ebook_barnes_noble: https://www.barnesandnoble.com/w/the-last-standing-dragon-ashiq-alibhai/1147533265?ean=2940181239579
