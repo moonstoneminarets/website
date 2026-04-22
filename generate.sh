@@ -1,0 +1,1 @@
+dotnet run --project ~/code/moonpress/MoonPress.CLI ~/code/mm
