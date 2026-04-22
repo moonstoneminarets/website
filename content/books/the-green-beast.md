@@ -1,11 +1,14 @@
 ---
 title: The Green Beast
 datePublished: 2025-04-25 10:00:00
-category: Books
+category: books
+template: book
 slug: the-green-beast
 summary: In the grim and decaying kingdom of Caldur Hollow, Sir Tariq, a once-proud knight cursed into the form of a monstrous frog, must confront his past and the legacy of his fallen mentor. As he hunts for vengeance, he encounters a world where magic is both a curse and a gift, and where revenge comes with a heavy cost.
 cover: the-green-beast.jpg
+buy_link: https://books2read.com/greenbeast
 
+# Paperback retailers
 buy_paperback_abebooks: https://www.abebooks.com/9798231912230/Green-Beast-Alibhai-Ashiq/plp
 buy_paperback_amazon: https://www.amazon.com/Green-Beast-Ashiq-Alibhai/dp/B0F7FRD7WY/
 buy_paperback_barnes_noble: https://www.barnesandnoble.com/w/the-green-beast-ashiq-alibhai/1147338524?ean=9798231912230
@@ -15,8 +18,11 @@ buy_paperback_readings: https://www.readings.com.au/product/9798231912230/the-gr
 buy_paperback_thalia: https://www.thalia.de/shop/home/artikeldetails/A1075385298
 buy_paperback_walmart: https://www.walmart.com/ip/The-Green-Beast-Paperback-9798231912230/16325901146
 
+# eBook retailers
+buy_ebook_amazon: https://www.amazon.com/Green-Beast-Ashiq-Alibhai/dp/B0F7FRD7WY/
 buy_ebook_apple: https://books.apple.com/us/book/the-green-beast/id6745075492
 buy_ebook_barnes_noble: https://www.barnesandnoble.com/w/the-green-beast-ashiq-alibhai/1147338524?ean=2940181530195
+buy_ebook_bookshop_org: https://bookshop.org/p/books/the-green-beast-ashiq-alibhai/9766d1b4d253e770?ean=9798231893621&next=t&digital=t
 buy_ebook_everand: https://www.everand.com/book/853767988/The-Green-Beast
 buy_ebook_fable: https://fable.co/book/x-9798231893621
 buy_ebook_indigo: https://www.indigo.ca/en-ca/the-green-beast/a6b02fcd-1c25-3198-94f8-c7bd0a0e62ee.html
@@ -24,7 +30,6 @@ buy_ebook_kobo: https://www.kobo.com/ca/en/ebook/the-green-beast-1?sId=e0bbcb7e-
 buy_ebook_smashwords: https://www.smashwords.com/books/view/1756499
 buy_ebook_thalia: https://www.thalia.de/shop/home/artikeldetails/A1075122393
 buy_ebook_vivlio: https://shop.vivlio.com/product/9798231893621_9798231893621_10020/the-green-beast
-template: book
 ---
 
 **A fallen knight. A forgotten curse. A sword that should not have been reforged.**
