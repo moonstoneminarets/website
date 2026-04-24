@@ -1,0 +1,27 @@
+{{ define "main" }}
+<h2>About</h2>
+<p>Moonstone Minarets is a one-man publishing house run by <a href="https://ashiqalibhai.com">Ashiq Alibhai</a>. We publish Islamic fantasy and sci-fi, and occasionally non-fiction. You can find out more about why Moonstone Minarets exists at our <a href="/about/">about page</a>.</p>
+
+<h2>Jannah Journeys</h2>
+<p><a href="/jannah-journeys/">Jannah Journeys</a> are wholesome, faith-inspired audio stories that spark young imaginations and nurture Islamic values, one captivating tale at a time.</p>
+
+<h2>Books</h2>
+<p>Below are books we published. Click on any title to see more details, and purchase options.</p>
+
+<div class="books-grid">
+  {{ range (where .Site.RegularPages "Section" "books") }}
+  <div class="book-grid">
+    <div class="book-image">
+      <a href="{{ .Permalink }}">
+        <img src="/images/covers/{{ .Params.cover }}" alt="{{ .Title }} cover">
+      </a>
+    </div>
+    <div class="book-info">
+      <h2 class="book-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <p class="book-summary">{{ .Params.summary }}</p>
+      <p><a class="read-more" href="{{ .Permalink }}">Read more &#x2192;</a></p>
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

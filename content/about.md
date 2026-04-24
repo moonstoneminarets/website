@@ -1,8 +1,6 @@
 ---
 title: About
-datePublished: 2024-01-01 10:00:00
-category: pages
-slug: about
+date: 2024-01-01
 ---
 
 I started Moonstone Minarets in 2024 with a simple goal: to provide an easy way for readers to find Islamic works of fantasy and sci-fi. I got tired of reading sci-fi and fantasy works -- sometimes with Muslim characters! -- rife with propaganda, or values and morals in opposition to Islam.

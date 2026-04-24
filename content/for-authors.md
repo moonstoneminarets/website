@@ -1,22 +1,20 @@
 ---
 title: For Authors
-datePublished: 2024-01-01 10:00:00
-category: pages
-slug: for-authors
+date: 2024-01-01
 ---
 
 ## What I am Looking For
 
 I'm looking for fiction for adult and young-adults, primarily novels. I will also consider short story collections and novellas. Genre and topic can cover anything in the diverse breadth of fantasy, science-fantasy, and science fiction; perhaps horror, or other genres, if they're good.
 
-Content must meet my criteria for being "Islamically acceptable," which you can read about on the [about page](/about.html). This is also subject to my discretion, as you might sometimes need to break the rules to deliver your book's message. It should also be between 60-700 pages in length.
+Content must meet my criteria for being "Islamically acceptable," which you can read about on the [about page](/about/). This is also subject to my discretion, as you might sometimes need to break the rules to deliver your book's message. It should also be between 60-700 pages in length.
 
 **Please do not send your work until you feel it's ready to be published to the world!** Due to time and resource limitations, I can only read it once, and I don't accept "updated" versions later on; you get one shot to make a great impression, so make it good!
 
 ## What I am not Looking For
 
 - Anything you didn't write or own the copyright to (obviously)
-- Books that go against [our values](about.html)
+- Books that go against [our values](/about/)
 - Non-Fiction, historical fiction, and other types of books (e.g. biographies, recipe books)
 - Books suitable for children 12 and under
 - Poetry
@@ -36,7 +34,7 @@ Since Moonstone Minarets is a one-man project, I can offer:
 - Publish your book, as a ebook, to major bookstores (e.g. Amazon, Apple Store, Hoopla, etc.)
 - Publish your book to libraries (e.g. OverDrive/Libby, Odilo, Bibliotheca, Hoopla, etc.)
 
-To see a complete and current list of stores, both digital and paper, check out our [Facts About Palestine page](http://localhost:8000/books/facts-about-palestine.html).
+To see a complete and current list of stores, both digital and paper, check out our [Facts About Palestine page](/books/facts-about-palestine/).
 
 Note that, as the publisher, I acquire the rights to publish your book in print and ebook formats, worldwide, in all languages.
 

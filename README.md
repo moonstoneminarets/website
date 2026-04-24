@@ -1,3 +1,3 @@
 # [Moonstone Minarets](https://moonstoneminarets.com)
 
-Made with MoonPress ...
+Made with Hugo!
