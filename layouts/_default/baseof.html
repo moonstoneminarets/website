@@ -8,6 +8,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/style.css">
   <title>{{ if .IsHome }}Moonstone Minarets{{ else }}{{ .Title }} - Moonstone Minarets{{ end }}</title>
+
+  <!-- OpenGraph begins here. With an image (and a fallback). -->
+  {{ $img := "/images/default-opengraph.png" }}
+
+  {{ with .Params.cover }}
+    {{ $img = printf "/images/covers/%s" . }}
+  {{ end }}
+
+  {{ with .Params.image }}
+    {{ $img = printf "/images/%s" . }}
+  {{ end }}
+
+  <!-- OpenGraph description -->
+  {{ $desc := .Description }}
+
+  {{ if not $desc }}
+    {{ $desc = .Summary | plainify }}
+  {{ end }}
+
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ $desc }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:image" content="{{ $img | absURL }}">
 </head>
 <body>
   <header class="site-header">

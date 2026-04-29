@@ -1,6 +1,7 @@
 ---
 title: The Olive Heist
 date: 2025-01-24
+image: jannah-journeys/the-olive-heist.png
 ---
 
 ## Audio

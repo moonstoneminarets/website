@@ -1,6 +1,7 @@
 ---
 title: The Little Lantern
 date: 2025-01-14
+image: jannah-journeys/the-little-lantern.png
 ---
 
 ## Audio
