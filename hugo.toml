@@ -1,0 +1,9 @@
+baseURL = 'https://moonstoneminarets.com/'
+languageCode = 'en-us'
+title = 'Moonstone Minarets'
+disableKinds = ['taxonomy', 'term']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

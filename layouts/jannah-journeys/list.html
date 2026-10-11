@@ -1,0 +1,24 @@
+{{ define "main" }}
+<h1>Jannah Journeys</h1>
+<p class="intro-text">Audio adventures from Paradise! Listen to exciting stories filled with fun, friendship, and Islamic values.</p>
+
+<div class="jannah-journeys-grid">
+  {{ range .Pages }}
+  <div class="journey-card">
+    <div class="journey-image">
+      <a href="{{ .Permalink }}">
+        <img src="/images/jannah-journeys/{{ .File.ContentBaseName }}.png" alt="{{ .Title }} story image">
+      </a>
+    </div>
+    <div class="journey-info">
+      <h2 class="journey-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <div class="journey-meta">
+        <span class="journey-date">&#x1F3A7; Audio Story</span>
+        {{ if not .Date.IsZero }}<span class="journey-date">{{ .Date.Format "January 2, 2006" }}</span>{{ end }}
+      </div>
+      <p><a href="{{ .Permalink }}" class="listen-now">Listen now &#x2192;</a></p>
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ end }}
